@@ -1,0 +1,9 @@
+# macOS Files
+.DS_Store
+
+# Build Files
+microservice-with-chi
+
+# IDE Files
+.idea
+.vscode
