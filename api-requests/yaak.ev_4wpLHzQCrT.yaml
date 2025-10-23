@@ -1,0 +1,17 @@
+type: environment
+model: environment
+id: ev_4wpLHzQCrT
+workspaceId: wk_zz7GYfyuAU
+createdAt: 2025-10-23T02:28:55.403096
+updatedAt: 2025-10-23T02:30:26.300383
+name: Development
+public: true
+base: false
+parentModel: environment
+parentId: ev_N9gTwFNBN3
+variables:
+- enabled: true
+  name: CUSTOMER_ID
+  value: ${[ uuid.v4() ]}
+  id: W6XjRSUk4p
+color: null

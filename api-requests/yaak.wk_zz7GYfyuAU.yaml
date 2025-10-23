@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_zz7GYfyuAU
+createdAt: 2025-10-23T02:25:22.725940
+updatedAt: 2025-10-23T02:25:22.725943
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Go Microservice with Chi
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
