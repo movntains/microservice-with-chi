@@ -6,8 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/movntains/microservice-with-chi/model"
 	"github.com/redis/go-redis/v9"
+
+	"github.com/movntains/microservice-with-chi/model"
 )
 
 type RedisRepo struct {
