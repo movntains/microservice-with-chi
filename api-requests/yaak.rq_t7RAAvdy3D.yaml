@@ -2,14 +2,19 @@ type: http_request
 model: http_request
 id: rq_t7RAAvdy3D
 createdAt: 2025-10-23T02:59:32.973335
-updatedAt: 2025-10-23T03:43:19.898741
+updatedAt: 2025-10-23T04:37:10.941956
 workspaceId: wk_zz7GYfyuAU
 folderId: null
 authentication: {}
 authenticationType: none
 body: {}
 bodyType: null
-description: ''
+description: |-
+  List all orders.
+
+  The `cursor` param can be updated to get the next page of results by setting it to the value of `next` that gets returned from the response.
+
+  If there's no `next` value in the response, that means that there are no more pages.
 headers:
 - enabled: true
   name: ''
