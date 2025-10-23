@@ -1,0 +1,25 @@
+type: http_request
+model: http_request
+id: rq_8JHxjmzkjf
+createdAt: 2025-10-23T03:54:38.359073
+updatedAt: 2025-10-23T04:10:46.094072
+workspaceId: wk_zz7GYfyuAU
+folderId: null
+authentication: {}
+authenticationType: none
+body: {}
+bodyType: null
+description: |-
+  Retrieve a specific order by its ID.
+
+  To get an ID, run the `List All Orders` request and grab an order ID from the response. Then update the URL of this request to use that order ID.
+headers: []
+method: GET
+name: Get Order by ID
+sortPriority: -1761186337142.0
+url: http://localhost:3000/orders/1128788466972471692
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: IZn9HxgTrw
