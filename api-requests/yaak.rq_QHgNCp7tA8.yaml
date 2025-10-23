@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_QHgNCp7tA8
+createdAt: 2025-10-23T04:23:57.210010
+updatedAt: 2025-10-23T04:29:13.044699
+workspaceId: wk_zz7GYfyuAU
+folderId: null
+authentication: {}
+authenticationType: none
+body:
+  text: |-
+    {
+      "status": "shipped"
+    }
+bodyType: application/json
+description: |-
+  Update a specific order by its ID.
+
+  To get an ID, run the `List All Orders` request and grab an order ID from the response. Then update the URL of this request to use that order ID.
+
+  The `status` of the request body can be either `shipped` or `completed`.
+
+  A `400 Bad Request` is expected if:
+
+  - Setting `status` to `shipped` for an order that has already been shipped (i.e., `shipped_at` is not `null`)
+  - Setting `status` to `completed` for an order that has already been completed (i.e., `completed_at` is not `null`)
+  - Setting `status` to `completed` for an order that has not yet been shipped (i.e., `shipped_at` is `null`)
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: MmQCBZFfft
+method: PUT
+name: Update Order by ID
+sortPriority: -1761186337142.0
+url: http://localhost:3000/orders/2872736310638443881
+urlParameters: []
